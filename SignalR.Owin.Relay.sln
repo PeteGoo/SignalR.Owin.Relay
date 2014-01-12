@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Relay", "SignalR.Relay\SignalR.Relay.csproj", "{0C9ACE35-0D34-4D9F-84E5-086E84913F82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RelayClientTest", "RelayClientTest\RelayClientTest.csproj", "{0125C8A0-4379-4E57-8D16-B5AB5C12C4B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Owin.Relay.Common", "SignalR.Owin.Relay.Common\SignalR.Owin.Relay.Common.csproj", "{D4D65A5E-728A-4B82-9552-B559F57AF033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Owin.Relay.Client", "SignalR.Owin.Relay.Client\SignalR.Owin.Relay.Client.csproj", "{3F64674A-37B2-49B2-B34B-D2DB4DF9FE20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C9ACE35-0D34-4D9F-84E5-086E84913F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9ACE35-0D34-4D9F-84E5-086E84913F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9ACE35-0D34-4D9F-84E5-086E84913F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9ACE35-0D34-4D9F-84E5-086E84913F82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0125C8A0-4379-4E57-8D16-B5AB5C12C4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0125C8A0-4379-4E57-8D16-B5AB5C12C4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0125C8A0-4379-4E57-8D16-B5AB5C12C4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0125C8A0-4379-4E57-8D16-B5AB5C12C4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4D65A5E-728A-4B82-9552-B559F57AF033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4D65A5E-728A-4B82-9552-B559F57AF033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4D65A5E-728A-4B82-9552-B559F57AF033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4D65A5E-728A-4B82-9552-B559F57AF033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F64674A-37B2-49B2-B34B-D2DB4DF9FE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F64674A-37B2-49B2-B34B-D2DB4DF9FE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F64674A-37B2-49B2-B34B-D2DB4DF9FE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F64674A-37B2-49B2-B34B-D2DB4DF9FE20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
