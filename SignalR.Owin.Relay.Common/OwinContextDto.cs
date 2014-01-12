@@ -3,8 +3,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Nancy;
-using Nancy.Owin;
 
 namespace SignalR.Owin.Relay.Common
 {
@@ -41,24 +39,6 @@ namespace SignalR.Owin.Relay.Common
         }
     }
 
-    public static class OwinExtensions
-    {
-        public static async Task<OwinContextDto> ToDto(this NancyContext context)
-        {
-            var owinEnvironment = (IDictionary<string, object>)context.Items[NancyOwinHost.RequestEnvironmentKey];
-            return new OwinContextDto
-            {
-                RequestBody = await context.Request.Body.ReadAsUtf8StringAsync(),
-                RequestHeaders = context.Request.Headers.ToDictionary(h => h.Key, h => h.Value),
-                RequestMethod = owinEnvironment["owin.RequestMethod"] as string,
-                RequestPath = owinEnvironment["owin.RequestPath"] as string,
-                RequestPathBase = owinEnvironment["owin.RequestPathBase"] as string,
-                RequestProtocol = owinEnvironment["owin.RequestProtocol"] as string,
-                RequestQueryString = owinEnvironment["owin.RequestQueryString"] as string,
-                RequestScheme = owinEnvironment["owin.RequestScheme"] as string,
-                Version = owinEnvironment["owin.Version"] as string
-            };
-        }
-    }
+
     
 }

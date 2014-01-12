@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SignalR.Owin.Relay.Client</id>
+        <version>0.1</version>
+        <title>SignalR Owin Relay Client</title>
+        <authors>Peter Goodman</authors>
+        <owners>Peter Goodman</owners>
+        <licenseUrl>https://raw2.github.com/PeteGoo/SignalR.Owin.Relay/master/LICENSE.md</licenseUrl>
+        <projectUrl>https://github.com/PeteGoo/SignalR.Owin.Relay</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Client for accessing a REST API relayed over SignalR</description>
+        <releaseNotes>Initial Release.</releaseNotes>
+        <copyright>Copyright 2014</copyright>
+        <tags>SignalR REST Owin Relay</tags>
+    </metadata>
+    <files>
+        <file src="..\SignalR.Owin.Relay.Common\bin\Release\SignalR.Owin.Relay.Common.dll" target="lib\net45\SignalR.Owin.Relay.Common.dll" />
+    </files>
+</package>

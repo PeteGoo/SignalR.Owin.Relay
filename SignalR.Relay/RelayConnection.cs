@@ -9,10 +9,7 @@ namespace SignalR.Relay
 {
     public class RelayConnection : PersistentConnection
     {
-        protected override Task OnConnected(IRequest request, string connectionId)
-        {
-            return Connection.Send(connectionId, "Welcome!");
-        }
+        
 
         protected override Task OnReceived(IRequest request, string connectionId, string data)
         {
