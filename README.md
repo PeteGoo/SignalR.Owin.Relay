@@ -21,6 +21,8 @@ The client then gets the owin context and can spins up an in-memory OWIN host th
 ## Are you crazy?
 Possibly, do not use in a production scenario. AT YOUR OWN RISK.
 
+![](http://www.reactiongifs.com/wp-content/uploads/2013/04/friendly-fire.gif)
+
 ## Limitations
 * Only UTF8 POST body is supported at the moment. 
 * All requests just get a 200 response with no payload (My current scenario is uni-directional web hooks)
